@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Shopka</title>
+  <link rel="preload" href="fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Quicksand-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Quicksand-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Quicksand-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="header__top">
+    <img loading="lazy" src="img/logo.svg" class="header__logo" width="208" height="80" alt="logotype">
+    <a href="#" class="link header__link">Sell on Shopka</a>
+    <a href="#" class="link header__reg">Register</a>
+    <form action="#" class="form header__form">
+      <label class="form__label">
+        <input type="search" name="Search" class="input-reset form__input header__input" placeholder="Search...">
+      </label>
+      <button class="btn-reset form__btn header__search"></button>
+    </form>
+    <a class="link header__category">Consumer Electronics</a>
+    <div class="header__item">
+      <button class="btn-reset btn header__sign">Sign in</button>
+      <button class="btn-reset btn header__cart">My cart<span>5</span></button>
+      <img loading="lazy" src="img/icon.svg" class="header__icon" width="40" height="40" alt="icon">
+    </div>
+  </div>
+  <div class="header__nav">
+    <div class="container">
+      <nav class="nav" title="Main menu" data-menu>
+        <ul class="list-reset nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--active">
+              <img loading="lazy" src="img/nav-icon-1.svg" class="nav__icon" width="20" height="20" alt="icon">
+              Clothing & Shoes
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <img loading="lazy" src="img/nav-icon-2.svg" class="nav__icon" width="20" height="20" alt="icon">
+              Entertainment
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <img loading="lazy" src="img/nav-icon-3.svg" class="nav__icon" width="20" height="20" alt="icon">
+              Music
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <img loading="lazy" src="img/nav-icon-4.svg" class="nav__icon" width="20" height="20" alt="icon">
+              Sport & Lifestyle
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <img loading="lazy" src="img/nav-icon-5.svg" class="nav__icon" width="20" height="20" alt="icon">
+              Pets
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <img loading="lazy" src="img/nav-icon-6.svg" class="nav__icon" width="20" height="20" alt="icon">
+              Kitchen Accessories
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <img loading="lazy" src="img/nav-icon-7.svg" class="nav__icon" width="20" height="20" alt="icon">
+              Travel Equipment
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <img loading="lazy" src="img/nav-icon-8.svg" class="nav__icon" width="20" height="20" alt="icon">
+              Growing & Garden
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <img loading="lazy" src="img/nav-icon-9.svg" class="nav__icon" width="20" height="20" alt="icon">
+              Electrical Tools
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <img loading="lazy" src="img/nav-icon-10.svg" class="nav__icon" width="20" height="20" alt="icon">
+              Mother Care
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <img loading="lazy" src="img/nav-icon-11.svg" class="nav__icon" width="20" height="20" alt="icon">
+              Toys & Entertainment
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <img loading="lazy" src="img/nav-icon-12.svg" class="nav__icon" width="20" height="20" alt="icon">
+              Vintage
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+      <button class="btn-reset burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="shop">
+  <div class="container">
+    <div class="shop__inner">
+      <aside class="shop__sidebar">
+        <h1 class="shop__title">Departments</h1>
+        <ul class="list-reset shop__menu">
+          <li class="shop__list-item">
+            <a href="#" class="shop__list-info">All Categories</a>
+            <p class="shop__list-descr">Ecommerce patterns</p>
+            <ul class="list-reset shop__submenu">
+              <li class="shop__menu-item">
+                <a href="#" class="shop__list-info">Electronics</a>
+                <ul class="list-reset shop__submenu-level2">
+                  <li class="shop__menu-item">
+                    <a href="#" class="shop__list-info">Cell Phones & Smartphones</a>
+                    <ul class="list-reset shop__submenu-level3">
+                      <li class="shop__menu-item">
+                        <a href="#" class="shop__list-info">Cell Phone Accessories</a>
+                      </li>
+                      <li class="shop__menu-item">
+                        <a href="#" class="shop__list-info">Cell Phone Gatgets</a>
+                      </li>
+                      <li class="shop__menu-item">
+                        <a href="#" class="shop__list-info">Applications</a>
+                      </li>
+                      <li class="shop__menu-item">
+                        <a href="#" class="shop__list-info">Smart Watches</a>
+                      </li>
+                      <li class="shop__menu-item">
+                        <button class="btn-reset shop__list-btn">Show more</button>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="list-reset shop__submenu-level2">
+                  <li class="shop__menu-item">
+                    <a href="#" class="shop__list-info">Computers</a>
+                    <p class="shop__list-descr">Tablets & Networking</p>
+                    <ul class="list-reset shop__submenu-level3">
+                      <li class="shop__menu-item">
+                        <a href="#" class="shop__list-info">Cell Phone Accessories</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="list-reset shop__submenu-level2">
+                  <li class="shop__menu-item">
+                    <a href="#" class="shop__list-info">Consumer Electroinics</a>
+                    <ul class="list-reset shop__submenu-level3">
+                      <li class="shop__menu-item">
+                        <a href="#" class="shop__list-info">Cell Phone Accessories</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="list-reset shop__submenu-level2">
+                  <li class="shop__menu-item">
+                    <a href="#" class="shop__list-info">Home & Garden</a>
+                    <ul class="list-reset shop__submenu-level3">
+                      <li class="shop__menu-item">
+                        <a href="#" class="shop__list-info">Cell Phone Accessories</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="list-reset shop__submenu-level2">
+                  <li class="shop__menu-item">
+                    <a href="#" class="shop__list-info">Collectibles</a>
+                    <ul class="list-reset shop__submenu-level3">
+                      <li class="shop__menu-item">
+                        <a href="#" class="shop__list-info">Cell Phone Accessories</a>
+                        <li class="shop__menu-item">
+                          <button class="btn-reset shop__menu-btn">Expand</button>
+                        </li>
+                      </li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </ul>
+            </li>
+          </li>
+        </ul>
+
+        <ul class="list-reset shop__sidebar-list">
+          <li class="shop__sidebar-item">
+            <button class="btn-reset shop__sidebar-btn">Collapsed filters</button>
+            <ul class="list-reset shop__sidebar-sublist">
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">filter</p>
+              </li>
+            </ul>
+          </li>
+          <li class="shop__sidebar-item">
+            <button class="btn-reset shop__sidebar-btn">Expanded Filters</button>
+            <ul class="list-reset shop__sidebar-sublist">
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">Recommended</p>
+              </li>
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">Recently Added</p>
+              </li>
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">Expiring Soon</p>
+              </li>
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">Most Rated</p>
+              </li>
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">Price: Low → High</p>
+              </li>
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">Price: High → Low</p>
+              </li>
+            </ul>
+          </li>
+          <li class="shop__sidebar-item">
+            <button class="btn-reset shop__sidebar-btn">Year of manufacturing</button>
+            <ul class="list-reset shop__sidebar-sublist">
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">1954</p>
+              </li>
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">1955</p>
+              </li>
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">1956</p>
+              </li>
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">1957</p>
+              </li>
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">1958</p>
+              </li>
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">1959</p>
+              </li>
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">1960</p>
+              </li>
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">1961</p>
+              </li>
+              <li class="shop__sidebar-content">
+                <input type="checkbox" class="checkbox-round" />
+                <p class="shop__sidebar-text">1962-2020</p>
+              </li>
+
+            </ul>
+          </li>
+        </ul>
+      </aside>
+      <div class="shop__main">
+        <div class="shop__items">
+          <div class="shop__start">
+            <form action="#" class="form shop__form">
+            <fieldset>
+              <legend>SORT BY</legend>
+            <select name="sort" class="shop__select">
+                <option class="shop__option" selected value="Useless first">Useless first</option>
+                <option class="shop__option" value="Useless second">Useless second</option>
+            </select>
+            </fieldset>
+            <select name="cd" class="shop__select shop__select--blocked">
+              <option class="shop__option shop__option--blocked" selected value="Condition">Condition</option>
+              <option class="shop__option shop__option--blocked" value="Condition second">Condition second</option>
+             </select>
+             <select name="cd" class="shop__select shop__select--blocked">
+              <option class="shop__option shop__option--blocked" selected value="Delivery options">Delivery options</option>
+              <option class="shop__option shop__option--blocked" value="Delivery options second">Delivery options second</option>
+             </select>
+          </form>
+          <div class="shop__right">
+            <div class="shop__btns">
+              <button class="btn-reset shop__button">Show all</button>
+              <button class="btn-reset shop__button shop__button--active">Auction</button>
+              <button class="btn-reset shop__button">Buy now</button>
+            </div>
+            <div class="shop__pos">
+              <button class="btn-reset shop__button-icon shop__button-icon--line">
+                <svg class="shop__btn-icon">
+                  <use xlink:href="img/sprite.svg#btn-line"></use>
+                </svg>
+              </button>
+              <button class="btn-reset shop__button-icon shop__button-icon--icons shop__button-icon--grid">
+                <svg class="shop__btn-icon shop__btn-icon--icons">
+                  <use xlink:href="img/sprite.svg#btn-grid"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          </div>
+          <div class="shop__tags">
+            <h2 class="shop__tags-title">Related</h2>
+            <span class="shop__tag">worldwide shipping</span>
+            <span class="shop__tag">under $50</span>
+            <span class="shop__tag">kitten</span>
+            <span class="shop__tag">plastic plugs</span>
+            <span class="shop__tag">pucker shoes</span>
+            <span class="shop__tag">vintage typewriter</span>
+          </div>
+          <div class="shop__middle">
+            <div class="shop__item">
+              <picture>
+                <source srcset="img/shop-1.avif" type="image/avif">
+                <source srcset="img/shop-1.webp" type="image/webp">
+                <img loading="lazy" src="img/shop-1.png" class="shop__image" width="227" height="224" alt="product">
+              </picture>
+              <div class="shop__content">
+                <h3 class="shop__content-title">Vintage Typewriter to post awesome stories about UI design and webdev.</h3>
+                <div class="shop__info">
+                  <span class="shop__price">$49.50</span>
+                  <div class="shop__about"></div>
+                </div>
+                <p class="shop__content-descr">Eligible for Shipping To Mars or somewhere else</p>
+                <div class="shop__content-bottom">
+                  <div class="shop__rating">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star-half.svg" class="shop__star" width="16" height="16" alt="star half">
+                    <div class="shop__total">4.05</div>
+                  </div>
+                  <button class="btn-reset btn shop__content-button">
+                    <img loading="lazy" src="img/like.svg" class="shop__like" width="28" height="28" alt="like">
+                    Watch
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="shop__item">
+              <picture>
+                <source srcset="img/shop-2.avif" type="image/avif">
+                <source srcset="img/shop-2.webp" type="image/webp">
+                <img loading="lazy" src="img/shop-2.png" class="shop__image" width="227" height="224" alt="product">
+              </picture>
+              <div class="shop__content">
+                <h3 class="shop__content-title">Lee Pucker design. Leather botinki for handsome designers. Free shipping.</h3>
+                <div class="shop__info">
+                  <span class="shop__price">$13.95</span>
+                  <div class="shop__about"></div>
+                </div>
+                <p class="shop__content-descr">1258 bids, 359 watchers $5.95 for shipping</p>
+                <div class="shop__content-bottom">
+                  <div class="shop__rating">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star-half.svg" class="shop__star" width="16" height="16" alt="star half">
+                    <div class="shop__total">4.56</div>
+                  </div>
+                  <button class="btn-reset btn shop__content-button">
+                    <img loading="lazy" src="img/like.svg" class="shop__like" width="28" height="28" alt="like">
+                    Watch
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="shop__item">
+              <picture>
+                <source srcset="img/shop-3.avif" type="image/avif">
+                <source srcset="img/shop-3.webp" type="image/webp">
+                <img loading="lazy" src="img/shop-3.png" class="shop__image" width="227" height="224" alt="product">
+              </picture>
+              <div class="shop__content">
+                <h3 class="shop__content-title">Timesaving kitten to save months on development. Playful, cute, cheap!</h3>
+                <div class="shop__info">
+                  <span class="shop__price">$128.99</span>
+                  <div class="shop__about"></div>
+                </div>
+                <p class="shop__content-descr">Eligible for nothing: (</p>
+                <div class="shop__content-bottom">
+                  <div class="shop__rating">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star-half.svg" class="shop__star" width="16" height="16" alt="star half">
+                    <div class="shop__total">4.87</div>
+                  </div>
+                  <button class="btn-reset btn shop__content-button">
+                    <img loading="lazy" src="img/like.svg" class="shop__like" width="28" height="28" alt="like">
+                    Watch
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="shop__item">
+              <picture>
+                <source srcset="img/shop-4.avif" type="image/avif">
+                <source srcset="img/shop-4.webp" type="image/webp">
+                <img loading="lazy" src="img/shop-4.png" class="shop__image" width="227" height="224" alt="product">
+              </picture>
+              <div class="shop__content">
+                <h3 class="shop__content-title">Plastic useless plugs and tubes for high-fidelity prototyping. Fit & Eat!</h3>
+                <div class="shop__info">
+                  <span class="shop__price">$12.48</span>
+                  <div class="shop__about shop__about--green">50% OFF</div>
+                </div>
+                <p class="shop__content-descr">Wordwide shitting available
+                  Buyers protection possible!</p>
+                <div class="shop__content-bottom">
+                  <div class="shop__rating">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star-half.svg" class="shop__star" width="16" height="16" alt="star half">
+                    <div class="shop__total">4.99</div>
+                  </div>
+                  <button class="btn-reset btn shop__content-button">
+                    <img loading="lazy" src="img/like.svg" class="shop__like" width="28" height="28" alt="like">
+                    Watch
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="shop__item">
+              <picture>
+                <source srcset="img/shop-5.avif" type="image/avif">
+                <source srcset="img/shop-5.webp" type="image/webp">
+                <img loading="lazy" src="img/shop-5.png" class="shop__image" width="227" height="224" alt="product">
+              </picture>
+              <div class="shop__content">
+                <h3 class="shop__content-title">Creativity stimulating lotion. Drink every morning to generate better ideas!</h3>
+                <div class="shop__info">
+                  <span class="shop__price">$12.48</span>
+                  <div class="shop__about"></div>
+                </div>
+               <p class="shop__content-descr">Wordwide shifting available
+                Buyers protection possible!</p>
+                <div class="shop__content-bottom">
+                  <div class="shop__rating">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star-half.svg" class="shop__star" width="16" height="16" alt="star half">
+                    <div class="shop__total">4.99</div>
+                  </div>
+                  <button class="btn-reset btn shop__content-button">
+                    <img loading="lazy" src="img/like.svg" class="shop__like" width="28" height="28" alt="like">
+                    Watch
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="shop__item">
+              <picture>
+                <source srcset="img/shop-6.avif" type="image/avif">
+                <source srcset="img/shop-6.webp" type="image/webp">
+                <img loading="lazy" src="img/shop-6.png" class="shop__image" width="227" height="224" alt="product">
+              </picture>
+              <div class="shop__content">
+                <h3 class="shop__content-title">Prototyping items to create a lot if useless things…</h3>
+                <div class="shop__info">
+                  <span class="shop__price">$128.99</span>
+                  <div class="shop__about"></div>
+                </div>
+                <p class="shop__content-descr">Showcasing onHovered state</p>
+                <div class="shop__content-bottom">
+                  <div class="shop__rating">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star-half.svg" class="shop__star" width="16" height="16" alt="star half">
+                    <div class="shop__total">4.87</div>
+                  </div>
+                  <button class="btn-reset btn shop__content-button">
+                    <img loading="lazy" src="img/like.svg" class="shop__like" width="28" height="28" alt="like">
+                    Watch
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="shop__item">
+              <picture>
+                <source srcset="img/shop-7.avif" type="image/avif">
+                <source srcset="img/shop-7.webp" type="image/webp">
+                <img loading="lazy" src="img/shop-7.png" class="shop__image" width="227" height="224" alt="product">
+              </picture>
+              <div class="shop__content">
+                <h3 class="shop__content-title">John Von SPRING </h3>
+                <div class="shop__info">
+                  <span class="shop__price">$13.95</span>
+                  <div class="shop__about"></div>
+                </div>
+                <p class="shop__content-descr">1258 bids, 359 watchers
+                  $5.95 for shipping</p>
+                <div class="shop__content-bottom">
+                  <div class="shop__rating">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star-half.svg" class="shop__star" width="16" height="16" alt="star half">
+                    <div class="shop__total">4.56</div>
+                  </div>
+                  <button class="btn-reset btn shop__content-button">
+                    <img loading="lazy" src="img/like.svg" class="shop__like" width="28" height="28" alt="like">
+                    Watch
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="shop__item">
+              <picture>
+                <source srcset="img/shop-8.avif" type="image/avif">
+                <source srcset="img/shop-8.webp" type="image/webp">
+                <img loading="lazy" src="img/shop-8.png" class="shop__image" width="227" height="224" alt="product">
+              </picture>
+              <div class="shop__content">
+                <h3 class="shop__content-title">Envelope, Stripes, Pencil and etc. Purchase this kit today and feel OKAY</h3>
+                <div class="shop__info">
+                  <span class="shop__price">$9.50</span>
+                  <div class="shop__about"></div>
+                </div>
+                <p class="shop__content-descr">Eligible for Shipping To Mars or somewhere else</p>
+                <div class="shop__content-bottom">
+                  <div class="shop__rating">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star-half.svg" class="shop__star" width="16" height="16" alt="star half">
+                    <div class="shop__total">4.77</div>
+                  </div>
+                  <button class="btn-reset btn shop__content-button">
+                    <img loading="lazy" src="img/like.svg" class="shop__like" width="28" height="28" alt="like">
+                    Watch
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="shop__item">
+              <picture>
+                <source srcset="img/shop-9.avif" type="image/avif">
+                <source srcset="img/shop-9.webp" type="image/webp">
+                <img loading="lazy" src="img/shop-9.png" class="shop__image" width="227" height="224" alt="product">
+              </picture>
+              <div class="shop__content">
+                <h3 class="shop__content-title">Professional teadrinking set for every designer and developer</h3>
+                <div class="shop__info">
+                  <span class="shop__price">$128.99</span>
+                  <div class="shop__about"></div>
+                </div>
+                <p class="shop__content-descr">Eligible for nothing: (</p>
+                <div class="shop__content-bottom">
+                  <div class="shop__rating">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star-half.svg" class="shop__star" width="16" height="16" alt="star half">
+                    <div class="shop__total">4.87</div>
+                  </div>
+                  <button class="btn-reset btn shop__content-button">
+                    <img loading="lazy" src="img/like.svg" class="shop__like" width="28" height="28" alt="like">
+                    Watch
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="shop__item">
+              <picture>
+                <source srcset="img/shop-10.avif" type="image/avif">
+                <source srcset="img/shop-10.webp" type="image/webp">
+                <img loading="lazy" src="img/shop-10.png" class="shop__image" width="227" height="224" alt="product">
+              </picture>
+              <div class="shop__content">
+                <h3 class="shop__content-title">One string Bonsai description</h3>
+                <div class="shop__info">
+                  <span class="shop__price">$11.68</span>
+                  <div class="shop__about"></div>
+                </div>
+                <p class="shop__content-descr">Wordwide shifting available
+                  Buyers protection possible!</p>
+                <div class="shop__content-bottom">
+                  <div class="shop__rating">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star-half.svg" class="shop__star" width="16" height="16" alt="star half">
+                    <div class="shop__total">4.99</div>
+                  </div>
+                  <button class="btn-reset btn shop__content-button">
+                    <img loading="lazy" src="img/like.svg" class="shop__like" width="28" height="28" alt="like">
+                    Watch
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="shop__item">
+              <picture>
+                <source srcset="img/shop-11.avif" type="image/avif">
+                <source srcset="img/shop-11.webp" type="image/webp">
+                <img loading="lazy" src="img/shop-11.png" class="shop__image" width="227" height="224" alt="product">
+              </picture>
+              <div class="shop__content">
+                <h3 class="shop__content-title">Simply best item in town to shine bright with your Nine Inch Nails</h3>
+                <div class="shop__info">
+                  <span class="shop__price">$1.25</span>
+                  <div class="shop__about shop__about--pink">Cool deal!</div>
+                </div>
+                <p class="shop__content-descr">Eligible for Shipping To Mars or somewhere else</p>
+                <div class="shop__content-bottom">
+                  <div class="shop__rating">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star-half.svg" class="shop__star" width="16" height="16" alt="star half">
+                    <div class="shop__total">4.77</div>
+                  </div>
+                  <button class="btn-reset btn shop__content-button">
+                    <img loading="lazy" src="img/like.svg" class="shop__like" width="28" height="28" alt="like">
+                    Watch
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="shop__item">
+              <picture>
+                <source srcset="img/shop-12.avif" type="image/avif">
+                <source srcset="img/shop-12.webp" type="image/webp">
+                <img loading="lazy" src="img/shop-12.png" class="shop__image" width="227" height="224" alt="product">
+              </picture>
+              <div class="shop__content">
+                <h3 class="shop__content-title">KISTOCHKI & KRASIBO. Top cosmetics brand from Chelyabinsk is here!</h3>
+                <div class="shop__info">
+                  <span class="shop__price">$23.25</span>
+                  <div class="shop__about"></div>
+                </div>
+                <p class="shop__content-descr">1258 bids, 359 watchers
+                  $5.95 for shipping</p>
+                <div class="shop__content-bottom">
+                  <div class="shop__rating">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star.svg" class="shop__star" width="16" height="16" alt="star">
+                    <img loading="lazy" src="img/star-half.svg" class="shop__star" width="16" height="16" alt="star half">
+                    <div class="shop__total">4.56</div>
+                  </div>
+                  <button class="btn-reset btn shop__content-button">
+                    <img loading="lazy" src="img/like.svg" class="shop__like" width="28" height="28" alt="like">
+                    Watch
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="shop__bottom">
+          <div class="shop__bottom-item">
+            <picture>
+              <source srcset="img/shop-icon-1.avif" type="image/avif">
+              <source srcset="img/shop-icon-1.webp" type="image/webp">
+              <img loading="lazy" src="img/shop-icon-1.png" class="shop__icon" width="80" height="80" alt="icon">
+            </picture>
+            <h4 class="shop__bottom-title">Clear & Usable user flows</h4>
+            <p class="shop__bottom-descr">Let’s boost yout marketplace</p>
+          </div>
+          <div class="shop__bottom-item">
+            <picture>
+              <source srcset="img/shop-icon-2.avif" type="image/avif">
+              <source srcset="img/shop-icon-2.webp" type="image/webp">
+              <img loading="lazy" src="img/shop-icon-2.png" class="shop__icon" width="80" height="80" alt="icon">
+            </picture>
+            <h4 class="shop__bottom-title">Fine & Styled components</h4>
+            <p class="shop__bottom-descr">Speed up with Setproduct templates</p>
+          </div>
+          <div class="shop__bottom-item">
+            <picture>
+              <source srcset="img/shop-icon-3.avif" type="image/avif">
+              <source srcset="img/shop-icon-3.webp" type="image/webp">
+              <img loading="lazy" src="img/shop-icon-3.png" class="shop__icon" width="80" height="80" alt="icon">
+            </picture>
+            <h4 class="shop__bottom-title">Customizable & Reusable</h4>
+            <p class="shop__bottom-descr">Take our UX patterns and rebuild</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <button class="btn-reset sidebar__open-btn">
+      <picture>
+        <source srcset="img/sidebar-open.avif" type="image/avif">
+        <source srcset="img/sidebar-open.webp" type="image/webp">
+        <img loading="lazy" src="img/sidebar-open.png" class="sidebar__open-img" width="60" height="60" alt="open sidebar">
+      </picture>
+    </button>
+  </div>
+
+</section>
+
+    </main>
+
+    <footer class="footer">
+  <div class="container"></div>
+</footer>
+
+  </div>
+</body>
+
+</html>
